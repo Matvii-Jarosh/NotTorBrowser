@@ -31,6 +31,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     setWindowTitle("NotTorBrowser - Tor Controller");
     setMinimumSize(700, 500);
+    setWindowIcon(QIcon(":/myappico.ico"));
     setupUI();
 }
 

@@ -21,4 +21,9 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 DISTFILES += \
-    LICENSE.txt
+    LICENSE.txt \
+    README.html \
+    README.md
+
+RESOURCES += \
+    res.qrc
